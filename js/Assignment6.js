@@ -1,3 +1,28 @@
+function MenuChoice()
+{
+    if (document.getElementById("menu").value == "ShowSection1") 
+    {
+        document.getElementById("section1").style.visibility = "visible";
+        document.getElementById("section2").style.visibility = "hidden";
+        document.getElementById("section3").style.visibility = "hidden";
+        CreateAllCustomers();
+    }
+    
+    if (document.getElementById("menu").value == "ShowSection2")
+    {
+        document.getElementById("section1").style.visibility = "hidden";
+        document.getElementById("section2").style.visibility = "visible";
+        document.getElementById("section3").style.visibility = "hidden";
+    }
+    
+    else if ((document.getElementById("menu").value == "ShowSection3"))
+    {
+        document.getElementById("section1").style.visibility = "hidden";
+        document.getElementById("section2").style.visibility = "hiddem";
+        document.getElementById("section3").style.visibility = "visible";
+    }
+}
+
 function CreateCustomer()
 {
     var objRequest = new XMLHttpRequest();
