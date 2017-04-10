@@ -1,0 +1,7 @@
+.example {font-style: italic; color: blue; }
+
+.customer label {display: inline-block; width: 225px; height: auto; margin: 3px;}
+
+.shipto label {display: inline-block; width: 250px; height: auto; margin: 3px;}
+
+.deletecust label {display: inline-block; width: 300px; height: auto; margin: 3px;} 
