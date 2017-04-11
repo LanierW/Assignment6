@@ -99,7 +99,7 @@ function ChangeAddress()
     
     function OperationResult2(output)
 {
-    if (output.WasSuccessful == 1)
+    if (output == 1)
     {
         document.getElementById("result2").innerHTML = "The operation was successful!";
     }
